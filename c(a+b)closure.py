@@ -4,11 +4,9 @@ store=1 #store variable to keep the check of success of iteration
 if(ord(arr[0])==99): # ascii value of c is 99
    for i in range(1,len(arr)):
         if(arr[i]=="a" or arr[i]=="b" or arr[i]==None):
-          pass
            store+=1
         else: 
             break
-   print(store)
    if(store==len(arr)):
        print("its a valid expression ")
    else:
